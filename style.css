@@ -1,4 +1,38 @@
 body {
     height: 100vh;
     margin: 0px 0px;
+    background-color: #C2DCDD;
+    display: flex;
 }
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5% 5%;
+    align-items: center;
+}
+
+a {
+
+}
+
+nav {
+    background-color: #673739;
+    color: white;
+    height: 80px;
+}
+
+@media screen and (max-width: 545px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    img {
+        height: 350px;
+        width: auto;
+    }
+
+    .button-styling {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+  }
