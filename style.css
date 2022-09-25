@@ -14,13 +14,10 @@ h1 {
     color: white;
 }
 
-ul, ol {
+ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-ul {
     list-style-type: none;
 }
 
@@ -177,5 +174,12 @@ footer {
     .teal-link {
         color: #2e8285;
     }
+
+  }
+
+  @media screen  and (min-width:769px) {
+   body {
+    background-color: blue;
+   }
 
   }
