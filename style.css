@@ -139,7 +139,7 @@ footer {
 
     .image-with-caption {
         display: flex;
-        flex-direction: co;
+        flex-direction: column;
     }
 
     #click-the-can {
