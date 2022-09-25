@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 0px 0px;
-    background-color: #C2DCDD;
+    background-color: #e79699;
     display: flex;
 }
 
@@ -11,14 +11,34 @@ h1 {
     align-items: center;
 }
 
-a {
-
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
 }
 
-nav {
-    background-color: #673739;
+nav, footer {
+    color: #352627;
+    background-color: #e79699;
+    height: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 24px;
+}
+
+.nav-item {
     color: white;
-    height: 80px;
 }
 
 @media screen and (max-width: 545px) {
@@ -27,12 +47,46 @@ nav {
         flex-direction: column;
     }
     
-    img {
+    #welcome-screen-cat-img, #no-dogs-allowed {
         height: 350px;
+        width: auto;
+    }
+
+    #feed-cat-logo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 40px;
         width: auto;
     }
 
     .button-styling {
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        height: 25px;
+        width: auto;
+        background-color: #f4f1de;
+        color: #2e8285;
+        text-transform: uppercase;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    .image-with-caption {
+        height: 600px;
+        background-color: #2e8285;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        justify-content: space-evenly;
     }
   }
