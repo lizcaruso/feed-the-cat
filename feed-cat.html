@@ -17,18 +17,32 @@
         </ul>
     </nav>
 
-    <div class="second-screen">
-        <h1>Aww, what a cute cat. Let's feed her!</h1>
-        <p class="fed-counter-message">You have fed the cat </p>
-        <div class="">
+    <div class="image-with-caption">
+        <div id="cat-not-fed-content">
+            <h1>Aww, what a cute cat. Let's feed her!</h1>
             <img id="hasnt-been-fed-cat" src="Hasnt-Been-Fed-Cat.png" alt="cute cat">
-            <img id="fed-cat" src="Has-Been-Fed-Cat.png" style="display: none;" alt="cute cat">
-            <img id="full-cat" src="Cat-Is-Full.png" style="display:none;" alt="cute cat grooming itself">
+            <div id="click-the-can">
+            <p class="georgia-14-uppercase">PSST... click the can to feed the cat.</p>
             <img id="cat-food-can" src="Cat-Food-Can-Compressed.png" alt="food can">
+            </div>
         </div>
     </div>
-    <p>Psst... click the can to feed the cat.</p>
-    <footer>Let's Feed the Cat: designed and developed by Liz Caruso</footer>
+
+<div id="cat-was-fed-content">
+            <img id="fed-cat" src="Has-Been-Fed-Cat.png" style="display: none;" alt="cute cat">
+</div>
+
+
+<div id="cat-is-full">
+            <img id="full-cat" src="Cat-Is-Full.png" style="display:none;" alt="cute cat grooming itself">
+        </div>
+    </div>
+
+    <footer id="feed-cat-footer">
+        <p>Let's Feed the Cat: designed and developed by Liz Caruso</p>
+        <p>Illustration Credit: <a href="https://creativemarket.com/falconeroa">Cute Little Workshop</a></p>
+    </footer>
+
     <script src="feed-cat.js"></script>
 </body>
 </html>

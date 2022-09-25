@@ -130,4 +130,30 @@ footer {
         font-size: 14px;
         padding: 8px;
     }
+
+    .georgia-14-uppercase {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .image-with-caption {
+        display: flex;
+        flex-direction: co;
+    }
+
+    #click-the-can {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 150px;
+        width: auto;
+        padding: 24px 24px;
+    }
+
+    #feed-cat-footer {
+        margin-top: 75px;
+    }
+
   }
