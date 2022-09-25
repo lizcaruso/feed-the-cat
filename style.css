@@ -5,23 +5,29 @@ body {
     display: flex;
 }
 
-h1 {
+h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 5% 5%;
+    padding: 1% 1%;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    align-items: center;
     list-style-type: none;
+}
+
+li {
+    justify-content: space-evenly;
 }
 
 nav, footer {
     color: #352627;
-    background-color: #e79699;
-    height: 40px;
+    background-color: #a65456;
+    height: 60px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -29,16 +35,24 @@ nav, footer {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
+    align-content: center;
+    color: white;
+    font-size: 12px;
     font-weight: bold;
-    text-align: center;
     padding: 24px 24px;
 }
 
 .nav-item {
     color: white;
+}
+
+.link-button {
+    color: #a65456;
+}
+
+#cat-food-can {
+    height: auto;
+    width: 150px;
 }
 
 @media screen and (max-width: 545px) {
@@ -47,9 +61,14 @@ footer {
         flex-direction: column;
     }
     
-    #welcome-screen-cat-img, #no-dogs-allowed {
+    #welcome-screen-cat-img, #hasnt-been-fed-cat {
         height: 350px;
         width: auto;
+    }
+
+    #no-dogs-allowed {
+        height: auto;
+        width: 350px;
     }
 
     #feed-cat-logo {
@@ -71,8 +90,9 @@ footer {
         text-transform: uppercase;
     }
 
-    a:link {
+    a:link, a {
         text-decoration: none;
+        color: white;
     }
 
     .image-with-caption {
@@ -88,5 +108,11 @@ footer {
 
     ul {
         justify-content: space-evenly;
+    }
+
+    li {
+        padding: 5% 5%;
+        width: 100px;
+        justify-content: space-around;
     }
   }
