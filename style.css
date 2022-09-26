@@ -65,6 +65,24 @@ a:hover {
     text-decoration: underline;
 }
 
+#teal-h1-text {
+    color: #2e8285;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.teal-link {
+    color: #2e8285;
+}
+
+.georgia-14-uppercase {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 545px) {
     body {
         display: flex;
@@ -131,12 +149,6 @@ a:hover {
         padding: 8px;
     }
 
-    .georgia-14-uppercase {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
     .image-with-caption {
         display: flex;
         flex-direction: column;
@@ -163,18 +175,6 @@ a:hover {
         padding: 2% 2%;
     }
 
-    #teal-h1-text {
-        color: #2e8285;
-    }
-
-    h2 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .teal-link {
-        color: #2e8285;
-    }
-
     #desktop-h1 {
         display: none;
     }
@@ -199,15 +199,20 @@ a:hover {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img {
+    #welcome-screen-cat-img, #hasnt-been-fed-cat {
         height: 400px;
         width: auto;
+    }
+
+    #no-dogs-allowed, #fed-cat {
+        height: auto;
+        width: 400px;
     }
 
     .side-by-side-content {
         display: flex;
         flex-direction: row;
-        margin: 1% 10% 1%;
+        margin: 1% 8% 1%;
     }
 
     .image-with-caption {
@@ -229,6 +234,7 @@ a:hover {
 
     .link-button {
         margin-bottom: 5%;
+        font-size: larger;
     }
 
     .button-styling {
@@ -256,6 +262,13 @@ a:hover {
 
     #mobile-h1 {
         display: none;
+    }
+
+    .coming-soon-content {
+        background-color: #FBF8ED;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2% 2%;
+        padding: 2% 2%;
     }
 
   }
