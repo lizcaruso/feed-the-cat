@@ -83,7 +83,7 @@ h2 {
     font-weight: bold;
 }
 
-@media screen and (max-width: 545px) {
+@media screen and (max-width: 783px) {
     body {
         display: flex;
         flex-direction: column;
@@ -181,7 +181,103 @@ h2 {
 
   }
 
-  @media screen  and (min-width:769px) {
+  @media screen  and (min-width: 784px) and (max-width: 1187px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav, ul {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    li {
+        justify-content: space-evenly;
+        margin-left: 100px;
+    }
+
+    #welcome-screen-cat-img, #hasnt-been-fed-cat {
+        height: 300px;
+        width: auto;
+    }
+
+    #no-dogs-allowed, #fed-cat {
+        height: auto;
+        width: 400px;
+    }
+
+    .side-by-side-content {
+        display: flex;
+        flex-direction: row;
+        margin: 1% 8% 1%;
+    }
+
+    .image-with-caption {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-by-side-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        align-content: center;
+        margin: 2% 10% 2%;
+        padding-bottom: 40px;
+        width: 400px;
+    }
+
+    .link-button {
+        margin-bottom: 5%;
+        font-size: larger;
+    }
+
+    .button-styling {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        height: 25px;
+        width: 200px;
+        background-color: #FBF8ED;
+        text-transform: uppercase;
+        border-radius: 5px 5px;
+    }
+
+    .button-styling, h1 {
+        padding: 14px 14px;
+        text-align: center;
+        margin: 5% 5%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #mobile-h1 {
+        display: none;
+    }
+
+    .coming-soon-content {
+        background-color: #FBF8ED;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2% 2%;
+        padding: 2% 2%;
+    }
+
+    #feed-cat-can-screen {
+        display: flex;
+        align-items: center;
+    }
+    
+  }
+
+  @media screen  and (min-width:1188px) {
 
     body {
         display: flex;
