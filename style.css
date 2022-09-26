@@ -89,16 +89,20 @@ h2 {
         flex-direction: column;
     }
     
-    #welcome-screen-cat-img, #hasnt-been-fed-cat {
+    #welcome-screen-cat-img,  {
         height: 350px;
         width: auto;
         margin-left: 30px;
     }
 
-    #no-dogs-allowed, #fed-cat {
+    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
         height: auto;
         width: 350px;
         margin-left: 50px;
+    }
+
+    #hasnt-been-fed-cat {
+        margin-left: 18%;
     }
 
     #feed-cat-logo {
@@ -131,7 +135,7 @@ h2 {
     }
 
     .image-with-caption {
-        height: 600px;
+        height: 500px;
         background-color: #2e8285;
         color: white;
     }
@@ -165,6 +169,8 @@ h2 {
     }
 
     #feed-cat-footer {
+        display: flex;
+        justify-content: space-evenly;
         margin-top: 75px;
     }
 
@@ -177,6 +183,10 @@ h2 {
 
     #desktop-h1 {
         display: none;
+    }
+
+    #mobile-h1 {
+        margin: 5% 2% 5%;
     }
 
   }
@@ -199,12 +209,12 @@ h2 {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img, #hasnt-been-fed-cat {
+    #welcome-screen-cat-img {
         height: 300px;
         width: auto;
     }
 
-    #no-dogs-allowed, #fed-cat {
+    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
         height: auto;
         width: 400px;
     }
@@ -255,8 +265,8 @@ h2 {
 
     footer {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
     }
 
     #mobile-h1 {
@@ -295,12 +305,12 @@ h2 {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img, #hasnt-been-fed-cat {
+    #welcome-screen-cat-img {
         height: 400px;
         width: auto;
     }
 
-    #no-dogs-allowed, #fed-cat {
+    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
         height: auto;
         width: 400px;
     }
