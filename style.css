@@ -271,4 +271,9 @@ h2 {
         padding: 2% 2%;
     }
 
+    #feed-cat-can-screen {
+        display: flex;
+        align-items: center;
+    }
+
   }
