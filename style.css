@@ -56,6 +56,15 @@ footer {
     width: 150px;
 }
 
+a:link, a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 545px) {
     body {
         display: flex;
@@ -101,15 +110,6 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         padding-bottom: 40px;
-    }
-
-    a:link, a {
-        text-decoration: none;
-        color: white;
-    }
-
-    a:hover {
-        text-decoration: underline;
     }
 
     .image-with-caption {
@@ -175,6 +175,10 @@ footer {
         color: #2e8285;
     }
 
+    #desktop-h1 {
+        display: none;
+    }
+
   }
 
   @media screen  and (min-width:769px) {
@@ -195,12 +199,8 @@ footer {
         margin-left: 100px;
     }
 
-    .navigation-bar, footer {
-        width: 100vw;
-    }
-
     #welcome-screen-cat-img {
-        height: 500px;
+        height: 400px;
         width: auto;
     }
 
@@ -213,16 +213,25 @@ footer {
     .image-with-caption {
         display: flex;
         flex-direction: column;
+        padding: 5% 5%;
     }
 
     .side-by-side-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        align-content: center;
         margin: 2% 10% 2%;
+        padding-bottom: 40px;
+        width: 500px;
+    }
+
+    .link-button {
+        margin-bottom: 5%;
     }
 
     .button-styling {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -231,8 +240,22 @@ footer {
         background-color: #FBF8ED;
         text-transform: uppercase;
         border-radius: 5px 5px;
+    }
+
+    .button-styling, h1 {
         padding: 14px 14px;
         text-align: center;
+        margin: 5% 5%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #mobile-h1 {
+        display: none;
     }
 
   }
