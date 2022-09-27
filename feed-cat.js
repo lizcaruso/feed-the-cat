@@ -8,30 +8,25 @@ let timesFed = 0;
 
 let feedCat = document.querySelector('#cat-food-can')
 
+// Define variable for the counter
+
+let counter = document.querySelector('.fed-cat-counter')
+
 // Define variable for the cat that hasn't been fed
 
-let needsFood = document.querySelector('#hasnt-been-fed-cat')
+let needsFood = document.querySelector('#cat-not-fed-content')
 
-// Define variable for the cat that has been fed
+// Variable for the counter text
 
-let fedCat = document.querySelector('#fed-cat')
-
-// Define variable for the full cat
-
-let fullCat = document.querySelector('#full-cat')
+let counterContent = document.querySelector("#cat-being-fed-content")
 
 // Set up an event listener for clicks of cat food can image
+// Add incremental counter
+// Make the text on screen increment by one each time user clicks cat food can
 
 feedCat.addEventListener('click', function() {
     timesFed +=1
-    console.log(timesFed)
     if (timesFed >= 1) {
-        fedCat.style.display = "block"
-        needsFood.style.display = "none"
-    }
-    else if (timesFed > 3) {
-        fedCat.style.display = "none"
-        needsFood.style.display = "none"
-        fullCat.style.display = "block"
+        counter.innerText = timesFed
     }
 });

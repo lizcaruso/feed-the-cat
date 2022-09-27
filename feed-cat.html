@@ -10,13 +10,16 @@
 <body>
 
     <!-- Navigation Code -->
-    <nav>
-        <ul>
-            <li class="nav-item"><img id="feed-cat-logo" src="Feed-Cat-Logo.png" alt="cute cat illustration logo"></li>
-            <li class="nav-item"><a href="index.html">Home</a>
-            <li class="nav-item"><a href="coming-soon.html">Coming Soon</a></li>
-        </ul>
-    </nav>
+    <div class="navigation-bar">
+        <nav>
+            <ul>
+                <img id="feed-cat-logo" src="Feed-Cat-Logo.png" alt="cute cat illustration logo">
+                <li class="nav-item"><a href="index.html">Home</a>
+                <li class="nav-item"><a href="coming-soon.html">Coming Soon</a></li>
+            </ul>
+        </nav>
+    </div>
+
 
     <!-- Default Content: Cat Not Fed -->
 
@@ -33,30 +36,21 @@
         <div class="side-by-side-buttons" id="feed-cat-can-screen">
                 <h1 id="desktop-h1">Aww, what a cute cat. Click the can to feed her!</h1>
                 <img id="cat-food-can" src="Cat-Food-Can-Compressed.png" alt="food can">
-        </div>
-        </div>
-    </div>
-    </div>
-
-
-
-
-
-<div id="cat-was-fed-content">
-            <img id="fed-cat" src="Has-Been-Fed-Cat.png" style="display: none;" alt="cute cat">
-</div>
-
-
-<div id="cat-is-full">
-            <img id="full-cat" src="Cat-Is-Full.png" style="display:none;" alt="cute cat grooming itself">
+                <div id="cat-being-fed-content">
+                <h1 id="mobile-h1">You've fed the cat this many times:</h1>
+                <h1 id="desktop-h1">You've fed the cat this many times:</h1>
+                <h2 class="fed-cat-counter">0</h2>
+                </div>
         </div>
     </div>
+
 
     <footer id="feed-cat-footer">
         <p>Let's Feed the Cat: developed by Liz Caruso</p>
         <p>Illustration By: <a href="https://creativemarket.com/falconeroa">Cute Little Workshop</a></p>
     </footer>
 
-    <script src="feed-cat.js"></script>
+<script src="feed-cat.js"></script>
+
 </body>
 </html>
