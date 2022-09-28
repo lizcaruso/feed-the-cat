@@ -102,19 +102,31 @@ h2 {
     cursor: pointer;
 }
 
+.cat-fed-message {
+    display: none;
+}
+
+#has-been-fed-cat {
+    display: none;
+}
+
+#full-cat {
+    display: none;
+}
+
 @media screen and (max-width: 783px) {
     body {
         display: flex;
         flex-direction: column;
     }
     
-    #welcome-screen-cat-img,  {
+    #welcome-screen-cat-img, #cat-grooming-image {
         height: 350px;
         width: auto;
         margin-left: 30px;
     }
 
-    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
+    #no-dogs-allowed, #has-been-fed-cat, #hasnt-been-fed-cat {
         height: auto;
         width: 350px;
         margin-left: 50px;
@@ -236,12 +248,12 @@ h2 {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img {
+    #welcome-screen-cat-img, #cat-grooming-image {
         height: 300px;
         width: auto;
     }
 
-    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
+    #no-dogs-allowed, #hasnt-been-fed-cat, #has-been-fed-cat {
         height: auto;
         width: 400px;
     }
@@ -332,12 +344,12 @@ h2 {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img {
+    #welcome-screen-cat-img, #cat-grooming-image {
         height: 400px;
         width: auto;
     }
 
-    #no-dogs-allowed, #fed-cat, #hasnt-been-fed-cat {
+    #no-dogs-allowed, #has-been-fed-cat, #hasnt-been-fed-cat {
         height: auto;
         width: 400px;
     }
