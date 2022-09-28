@@ -120,7 +120,7 @@ h2 {
         flex-direction: column;
     }
     
-    #welcome-screen-cat-img, #cat-grooming-image {
+    #welcome-screen-cat-img {
         height: 350px;
         width: auto;
         margin-left: 30px;
@@ -248,7 +248,7 @@ h2 {
         margin-left: 100px;
     }
 
-    #welcome-screen-cat-img, #cat-grooming-image {
+    #welcome-screen-cat-img {
         height: 300px;
         width: auto;
     }
