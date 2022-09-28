@@ -77,12 +77,6 @@ h2 {
     color: #2e8285;
 }
 
-.georgia-14-uppercase {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
 .fed-cat-counter {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
@@ -163,6 +157,8 @@ h2 {
         height: 500px;
         background-color: #2e8285;
         color: white;
+        display: flex;
+        flex-direction: column;
     }
 
     nav {
@@ -176,11 +172,6 @@ h2 {
         text-align: center;
         font-size: 14px;
         padding: 8px;
-    }
-
-    .image-with-caption {
-        display: flex;
-        flex-direction: column;
     }
 
     #click-the-can {
@@ -206,11 +197,11 @@ h2 {
         padding: 2% 2%;
     }
 
-    #desktop-h1 {
+    .desktop-h1 {
         display: none;
     }
 
-    #mobile-h1 {
+    .mobile-h1 {
         margin: 5% 2% 5%;
     }
 
@@ -305,7 +296,7 @@ h2 {
         justify-content: space-evenly;
     }
 
-    #mobile-h1 {
+    .mobile-h1 {
         display: none;
     }
 
@@ -402,7 +393,7 @@ h2 {
         align-items: center;
     }
 
-    #mobile-h1 {
+    .mobile-h1 {
         display: none;
     }
 
