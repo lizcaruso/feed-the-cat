@@ -169,7 +169,6 @@ h2 {
     .image-with-caption {
         height: 500px;
         background-color: #2e8285;
-        color: white;
         display: flex;
         flex-direction: column;
     }
